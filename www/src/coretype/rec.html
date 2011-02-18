@@ -31,4 +31,24 @@
     "rest"    : "/.meta/schema"
   }
 }</pre>
+  <p>Example Schema for a data structure holding arbitrary facts about a person.</p>
+  <pre class='json'>{
+  "type": "//rec",
+  "required": {
+    "name": "//str",
+    "id": "//num"
+  },
+  "optional": {
+    "age": "//num",
+  },
+  "rest": "//any"
+}</pre>
+  <p>Example Person Data Set</p>
+  <pre class='json'>{
+  "name": "Xavier Ample",
+  "age": 37,
+  "id": 6234,
+  "children": 3,
+  "wife": "Anna Therex Ample"
+}</pre>
 </div>
